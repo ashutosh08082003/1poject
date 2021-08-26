@@ -1,0 +1,568 @@
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-color: #fff;
+  }
+  
+  #hero .container, #hero .container-fluid {
+    padding-top: 30px;
+    margin-left: 20px;
+  }
+
+  #hero h4{
+        font-size: 16px;
+        color: #FF3147;
+  }
+  
+  #hero h1 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  #hero h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin: 10px 0 0 0;
+    font-size: 13px;
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 30px;
+    background-color: #ff3147;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+
+  #mymodel{
+    width: 400px;
+    height: 420px;
+    justify-content: center;
+  }
+
+  .form{
+    height: 300px;
+    width: 400px;
+    background-color: #ffff;
+    border: 1px solid rgb(136, 133, 133);
+  }
+  
+  .form .form_header{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 25px;
+  }
+  
+  .form .inputbox{
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(161, 156, 156);
+    width: 300px;
+    font-size: 18px;
+  }
+  
+  .form .inputbox2{
+    margin-top: 15px;
+    width: 150px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(161, 156, 156);
+    font-size: 18px;
+  }
+  
+  .form .chekbox{
+    margin-top: 10px;
+    color: #ff3147;
+  }
+  
+  .form label{
+    margin-top: 25px;
+    font-size: 15px;
+    color: rgb(100, 97, 97);
+    text-align: left;
+    width: 300px;
+  }
+  
+  .form button{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffff;
+    background-color: #ff3147;
+    border: none;
+    border-radius: 3px;
+    width: 300px;
+    height: 40px;
+    padding-bottom: 10px;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #fff;
+    color: #FF3147;
+  }
+  
+  #hero .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @media (min-width: 1200px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    #hero {
+      text-align: center;
+    }
+    #hero .container, #hero .container-fluid {
+      padding-top: 68px;
+    }
+    #hero .animated {
+      -webkit-animation: none;
+      animation: none;
+    }
+    #hero .hero-img {
+      text-align: center;
+    }
+    #hero .hero-img img {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    #hero .hero-img img {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #hero .hero-img img {
+      width: 80%;
+    }
+  }
+  
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # what we do for you..
+  --------------------------------------------------------------*/
+  section {
+    padding: 100px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f9f8ff;
+  }
+
+
+  .row{
+    padding: 30px;
+  }
+  
+  .row h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: left;
+  }
+  
+  .row h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff3147;
+  }
+  
+  .row p {
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 10%;
+    color: rgb(124, 122, 122);
+  }
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .section-title{
+  display: flex;
+}
+
+.services .what{
+  display: flex;
+}
+
+.services .what ul{
+  text-align: left;
+}
+
+.services .section-title h4{
+  color: #ff3147;
+  font-size: 15px;
+}
+
+.services .section-title ul h2{
+  width: 300px;
+}
+/*
+\\\\\\\\\\\\\\\\\\\\\\\\//////////////////////////////
+*/
+
+.color-white{
+  color: white;
+}
+
+.flip-box{
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  cursor: pointer;
+  height: 400px;
+  width: 100%;
+}
+
+.flip-box-front,
+.flip-box-back{
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  transition:transform 0.7s cubic-bezier(.4,.2,.2,.1);
+  backface-visibility: hidden;
+}
+
+.flip-box-front{
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-front{
+   transform: rotateY(-180deg);
+   transform-style: preserve-3d;
+}
+
+.flip-box-back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-back{
+   transform: rotateY(0deg);
+   transform-style: preserve-3d;
+}
+
+.flip-box .inner{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 60px;
+  outline: 1px solid transparent;
+  perspective: inherit;
+  transform: translateY(-50%) translateZ(60px) scale(.94);
+  top: 50%;
+}
+
+.flip-box-header{
+  margin-top: 15px;
+  font-size: 15px;
+  margin-left: -25px;
+  display: flex;
+  width: 200px;
+}
+
+.flip-box p{
+  font-size: 10px;
+  line-height: 1rem;
+  margin-top: 15px;
+}
+
+.flip-box img{
+  margin-top: 15px;
+  height: 50px;
+  width: 50px;
+}
+
+.flip-box button{
+  background-color: #fff;
+  border: 2px solid #ffff;
+  border-radius: 2px;
+  height: 30px;
+  width: 100px;
+  color: #ff3147;
+  cursor: pointer;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.flip-box button img{
+  height: 7px;
+  width: 20px;
+  margin-top: 0px;
+  margin-left: 2px;
+}
+
+/*//////////////////////////////////\\\\\\\\\\\\\\\\\
+*/
+
+
+.WHY h4{
+  text-align: center;
+  font-size: 15px;
+  color: #ff3147;
+  font-weight: bold;
+}
+
+.WHY h2{
+  text-align: center;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.why_chooes{
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.why_chooes .box{
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.why_chooes .box:hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.why_chooes .box img{
+  margin-left: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+.why_chooes .box h3{
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.why_chooes .box p{
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+/*
+\\\\\\\\\\\\\\\\\\\\\\\\\\\//////////////////////
+*/
+
+.our{
+  text-align: center;
+}
+
+.our h4{
+  color: #ff3147;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.our h2{
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/*
+///////////////////////here start our section\\\\\\\\\\\\\\\\\
+*/
+
+.main li{
+  list-style: none;
+}
+
+.main .row{
+  margin-top: 30px;
+}
+
+ .main img{
+  max-height: 500px;
+  max-width: 660px;
+  margin-left: 30px;
+}
+
+
+.main button{
+  height: 170px;
+  margin: 1px;
+  text-align: left;
+  max-width: 320px;
+  border: none;
+  outline: none;
+}
+
+.main button:hover{
+  background-color: #ff3147;
+  color: #ffff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.main .active{
+  background-color: #ff3147;
+  color: #ffff;
+}
+
+.main button h3{
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.main button p{
+  font-size: 14px;
+  margin-top: 18px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.stat{
+  background-color: #f0eff1;
+}
+
+
+.stat .expert h4{
+  color: #ff3147;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.stat .expert h1{
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.stat .stat-items{
+  background-color: #ffff;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.stat .stat-items:hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.stat img{
+  height: 50px;
+  margin-top: 20px;
+}
+
+.stat h2{
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.stat p{
+  font-size: 15px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+}
+
+.clients h4{
+  color: #FF3147;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.clients h1{
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.last p{
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.last a{
+  text-decoration: none;
+  color: #7f7e81;
+  font-size: 13px;
+}
+
+.last a b{
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #ff3147;
+}
+
+.footer{
+  background-color: #ff3147;
+}
+
+.footer .container img{
+  padding: 50px;
+}
